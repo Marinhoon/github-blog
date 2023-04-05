@@ -9,9 +9,9 @@ export function Home() {
   return (
     <div className="container">
       <header className="header">
-        <img src={effectLeft} />
+        <img className="effect-left" src={effectLeft} />
         <img className="logo" src={Logo} />
-        <img src={effectRight} />
+        <img className="effect-right" src={effectRight} />
       </header>
       <div className="content">
         <section className="info-profile">
